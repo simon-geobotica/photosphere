@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TMPDIR="/home/geobotica/Pictures/temp"
+TMPDIR="~/Pictures/temp"
 
 # wake camera, normally asleep so required
 ptpcam --set-property=0xD80E --val=0x00 >> /dev/null
